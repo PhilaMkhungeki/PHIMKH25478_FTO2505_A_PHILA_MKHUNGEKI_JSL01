@@ -12,6 +12,31 @@ nav {
     width: 300px;
 }
 
+.logo {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 23px;
+}
+
+.logo-line {
+    width: 6px;
+    height: 20px;
+    border-radius: 2px;
+    margin-right: 4px;
+}
+
+.line1 {
+    background-color: #635FC7;
+}
+
+.line2 {
+    background-color: #625de7;
+}
+
+.line3 {
+    background-color: #A8A4FF;
+}
+
 .logo-title {
     display: flex;
     padding-left: 20px;
@@ -26,7 +51,9 @@ nav {
 
 .sidebar h5 {
     color: #828FA3;
-    margin: 10px;
+    margin: 12px;
+    padding-left: 10px;
+    
 }
 
 .sidebar button {
@@ -63,6 +90,31 @@ main {
 }
 
 .column-name {
+    display: flex;
+}
+
+.dot {
+    width: 15px;
+    height: 15px;
+    background-color: aquamarine;
+    margin-top: 23px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.todo-dot {
+    background-color: rgb(28, 201, 201);
+}
+
+.doing-dot {
+    background-color: #635FC7;
+}
+
+.done-dot {
+    background-color: rgb(103, 224, 158);
+}
+
+.column-name h5{
     color: #828FA3;
 }
 
