@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    background-color: #F4F7FD;
+}
+
+nav {
+    background-color: aquamarine;
+    height: 100vh;
+    width: 200px;
+}
+
+.logo-title {
+    display: flex;
+    padding-left: 20px;
+}
+
+.logo-title img {
+    height: 30px;
+    margin-top: 17px;
+}
+
+.sidebar h5 {
+    color: #828FA3;
+    margin: 10px;
+}
+
+.sidebar button {
+    background-color: #635FC7;
+    border: none;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    height: 30px;
+    width: 90%;
+}
