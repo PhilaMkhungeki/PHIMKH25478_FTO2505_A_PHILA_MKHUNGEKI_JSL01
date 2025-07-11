@@ -12,36 +12,8 @@ nav {
     width: 300px;
 }
 
-.logo {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 23px;
-}
-
-.logo-line {
-    width: 6px;
-    height: 20px;
-    border-radius: 2px;
-    margin-right: 4px;
-}
-
-.line1 {
-    background-color: #635FC7;
-}
-
-.line2 {
-    background-color: #625de7;
-}
-
-.line3 {
-    background-color: #A8A4FF;
-}
-
 .logo-title {
-    display: flex;
     padding-left: 20px;
-    justify-content: space-between;
-    width: 125px;
 }
 
 .logo-title img {
@@ -150,3 +122,4 @@ main {
         display: none;
     }
 }
+
